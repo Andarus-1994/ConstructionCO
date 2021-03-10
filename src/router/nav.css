@@ -3,18 +3,17 @@
 nav {
   display: flex;
   justify-content: space-around;
-  padding: 0 2vh;
+  padding: 0 1vh;
 }
 nav > a {
   text-decoration: none;
 }
 nav h1 {
-  padding: 4vh 6vh;
-  padding-top: 60px;
+  padding: 4vh 0vh;
   color: #324659;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 4rem;
+  font-size: 10vh;
   letter-spacing: 1px;
 }
 
@@ -22,15 +21,14 @@ nav ul {
   list-style-type: none;
   display: flex;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.2rem;
+  font-size: 3vh;
   font-weight: 500;
 }
 
 nav ul a {
   text-decoration: none;
   color: #1e2831;
-  padding: 4vh 6vh;
-  padding-top: 10vh;
+  padding: 8vh 4vh;
   border-right: 1px solid #4c647a;
   transform: skew(-30deg);
   transition: 0.4s;

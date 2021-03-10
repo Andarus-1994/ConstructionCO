@@ -3,6 +3,8 @@ import HomeHeaderImg from "./homeComponents/mainHeaderImg.js";
 import HomeDescription from "./homeComponents/description.js";
 import ServicesList from "./homeComponents/servicesList.js";
 import MiniContact from "./homeComponents/miniContanct.js";
+import Questions from "./homeComponents/questions.js";
+import Testimonials from "./homeComponents/testimonials.js";
 function Home() {
   var servicesList = [
     {
@@ -20,6 +22,41 @@ function Home() {
     {
       name: "Home Improvements ",
     },
+    {
+      name: "Kitchens & Bathrooms",
+    },
+  ];
+
+  var QuestionList = [
+    {
+      name: "What will cost us?",
+      answer: "Depending on the size of the project (30.000 $ to 100.000 $).",
+    },
+    {
+      name: "What are the warranty standards?",
+      answer: "It can vary from 5 years to 10 years.",
+    },
+    {
+      name: "Can I get replacements even in the winter?",
+      answer: "Usually yes, depending on the case.",
+    },
+  ];
+
+  var TestimonialsList = [
+    {
+      opinion:
+        "Construction CO would be my recommendation to anyone looking for exterior home improvements",
+      name: "Joel John",
+    },
+    {
+      opinion: "Always the best practises. Will come a second time for sure !",
+      name: "Dora Jova",
+    },
+    {
+      opinion:
+        "Ive worked with them on many projects I am a local builder and business owner who has had a need for a roofer I can trust with my time and money.",
+      name: "Christian Barne",
+    },
   ];
 
   return (
@@ -28,6 +65,8 @@ function Home() {
       <HomeDescription />
       <ServicesList list={servicesList} />
       <MiniContact />
+      <Questions list={QuestionList} />
+      <Testimonials list={TestimonialsList} />
     </div>
   );
 }

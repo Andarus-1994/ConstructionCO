@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+.Home {
+  color: black;
+}
+
+.Home .HomeHeader {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("../assets/kitchenMain.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: black;
+}
+
+.Home .HomeHeader h1 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Home .HomeHeader h2 {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 3vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Home .HomeDescription {
+  max-width: 80vh;
+  margin: 0 auto;
+  padding-top: 15vh;
+  text-align: left;
+}
+.Home .HomeDescription h1 {
+  margin-top: 10vh;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 100;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.Home .HomeDescription h2 {
+  margin-top: 10vh;
+  color: rgb(66, 66, 66);
+  font-weight: 100;
+  font-size: 1.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 25px;
+  text-align: left;
+}
+
+.Home .servicesList ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-auto-rows: 1fr;
+  width: 70%;
+  max-width: 130vh;
+  margin: 0 auto;
+  margin-top: 15vh;
+  list-style-type: none;
+}
+
+.Home .servicesList ul li {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(194, 194, 194);
+  padding: 70px 15px;
+  text-transform: uppercase;
+}
+.Home .servicesList ul li h1 {
+  color: rgb(41, 41, 41);
+  font-weight: 900;
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+}
+
+.Home .servicesList ul li p {
+  cursor: pointer;
+  margin-top: 30px;
+  font-weight: 900;
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  color: #283b4d;
+}
+
+.Home .miniContact {
+  position: relative;
+  margin-top: 10vh;
+  min-height: 1000px;
+  background-image: radial-gradient(
+      circle at top left,
+      rgb(56, 53, 53) 10%,
+      rgba(43, 48, 58, 0.5) 100%
+    ),
+    url("../assets/homeContact.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Home .miniContact .leftCorner {
+  height: 20vh;
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+  clip-path: polygon(100% 0, 0 31%, 0 0);
+}
+
+.Home .miniContact .leftCorner2 {
+  top: 0;
+  position: absolute;
+  height: 20vh;
+  width: 100%;
+  background-color: rgb(161, 159, 159);
+  clip-path: polygon(35% 0, 75% 0%, 100% 0, 100% 10%, 37% 8%, 0 30%);
+}
+
+.Home .miniContact h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3.5rem;
+  font-family: "Rubik", sans-serif;
+  line-height: 70px;
+  width: 60%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.Home .miniContact h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  padding-right: 15%;
+  width: 60%;
+  text-align: left;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.Home .miniContact .inputText {
+  width: 60%;
+  padding-right: 15%;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Home .miniContact .inputText input[type="text"] {
+  color: black;
+  padding: 15px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  width: 48%;
+}
+
+.Home .miniContact .textArea {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  padding-right: 15%;
+}
+
+.Home .miniContact textarea {
+  color: black;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+
+.Home .miniContact input[type="submit"] {
+  cursor: pointer;
+  padding: 15px 30px;
+  color: white;
+  background: rgb(29, 32, 43);
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5rem;
+  font-family: "Rubik", sans-serif;
+  margin-top: 20px;
+  transition: 0.4s;
+}
+
+.Home .miniContact input[type="submit"]:hover {
+  background: rgb(51, 57, 77);
+}
+
+@media screen and (max-width: 1000px) {
+  .Home .HomeHeader h1 {
+    font-size: 2.5rem;
+    width: 80%;
+  }
+  .Home .HomeHeader h2 {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+}

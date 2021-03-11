@@ -20,7 +20,8 @@ function Questions(props) {
             <div className="question">
               {" "}
               <h1>{question.name}</h1>
-              <span>+</span>
+              {displayQuestion.id !== index &&
+                displayQuestion.show === true && <span>+</span>}
             </div>
             {displayQuestion.id === index && displayQuestion.show === true && (
               <p>{question.answer}</p>

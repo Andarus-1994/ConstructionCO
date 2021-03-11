@@ -364,6 +364,50 @@
   color: rgb(230, 201, 41);
 }
 
+.Home .reasons {
+  min-height: 80vh;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 10vh;
+}
+.Home .reasons > h1 {
+  color: rgb(12, 12, 12);
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.Home .reasons ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-column-gap: 100px;
+  grid-row-gap: 50px;
+  grid-auto-rows: 1fr;
+  list-style-type: none;
+  margin-top: 10vh;
+}
+
+.Home .reasons ul li img {
+  width: 40%;
+}
+.Home .reasons ul li h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.Home .reasons ul li p {
+  color: rgb(34, 32, 32);
+  font-weight: 100;
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

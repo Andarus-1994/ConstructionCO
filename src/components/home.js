@@ -5,6 +5,7 @@ import ServicesList from "./homeComponents/servicesList.js";
 import MiniContact from "./homeComponents/miniContanct.js";
 import Questions from "./homeComponents/questions.js";
 import Testimonials from "./homeComponents/testimonials.js";
+import Reasons from "./homeComponents/reason.js";
 function Home() {
   var servicesList = [
     {
@@ -59,6 +60,27 @@ function Home() {
     },
   ];
 
+  var reasons = [
+    {
+      name: "Service Quality",
+      description:
+        "We approach construction differently, delivering value beyond our client’s expectations.",
+      img: "ribbon.png",
+    },
+    {
+      name: "Experts in the Field",
+      description:
+        "Our team is constituted of the best and brightest in the industry.",
+      img: "people.png",
+    },
+    {
+      name: "Bound with the People",
+      description:
+        "We employ an open and cooperative approach with our associates.",
+      img: "business.png",
+    },
+  ];
+
   return (
     <div className="Home">
       <HomeHeaderImg />
@@ -67,6 +89,7 @@ function Home() {
       <MiniContact />
       <Questions list={QuestionList} />
       <Testimonials list={TestimonialsList} />
+      <Reasons list={reasons} />
     </div>
   );
 }

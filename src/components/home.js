@@ -6,6 +6,7 @@ import MiniContact from "./homeComponents/miniContanct.js";
 import Questions from "./homeComponents/questions.js";
 import Testimonials from "./homeComponents/testimonials.js";
 import Reasons from "./homeComponents/reason.js";
+import Footer from "./footer.js";
 function Home() {
   var servicesList = [
     {
@@ -90,6 +91,7 @@ function Home() {
       <Questions list={QuestionList} />
       <Testimonials list={TestimonialsList} />
       <Reasons list={reasons} />
+      <Footer />
     </div>
   );
 }

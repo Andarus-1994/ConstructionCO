@@ -10,7 +10,7 @@ import "./nav.css";
 
 function Nav() {
   return (
-    <div>
+    <div className="Routes">
       <Router>
         <nav>
           <NavLink to="/" exact activeClassName="active" className="inactive">

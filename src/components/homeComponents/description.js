@@ -10,7 +10,7 @@ function HomeDescription() {
   const [containerRef2, isVisible2] = ScrollTrigger({
     root: null,
     rootMargin: "0px",
-    threshold: 0.4,
+    threshold: 1,
   });
 
   return (

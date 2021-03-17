@@ -13,7 +13,11 @@ function ServicesList(props) {
       <ul>
         {props.list.map((service, index) => (
           <li key={index} ref={containerRef}>
-            {isVisible && <h1>{service.name}</h1>}
+            {isVisible && (
+              <h1 style={{ animation: "fadeInLeft " + 0.5 * index + "s" }}>
+                {service.name}
+              </h1>
+            )}
             {isVisible && <p>Learn More</p>}
           </li>
         ))}

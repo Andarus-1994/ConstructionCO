@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import ScrollTop from "./scrollTop.js";
 import Home from "../components/home.js";
+import OurWork from "../components/work.js";
+
 import "./nav.css";
 
 function Nav() {
@@ -40,8 +42,8 @@ function Nav() {
             <Route path="/about">
               <About />
             </Route>
-            <Route path="/users">
-              <Users />
+            <Route path="/demos">
+              <OurWork />
             </Route>
             <Route path="/">
               <Home />
@@ -55,10 +57,6 @@ function Nav() {
 
 function About() {
   return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }
 
 export default Nav;

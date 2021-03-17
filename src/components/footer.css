@@ -1,0 +1,85 @@
+.footer {
+  position: relative;
+  background: #1f3e4e;
+  min-height: 30vh;
+  padding-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.footer .container {
+  background-color: white;
+  width: 60%;
+  min-height: 20vh;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.footer .container ul {
+  background-color: #222425;
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+}
+
+.footer .container ul li {
+  color: white;
+  cursor: pointer;
+  padding: 5px 15px;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0 30px;
+  transition: 0.4s;
+}
+.footer .container ul li:hover {
+  color: rgb(153, 151, 151);
+  border: 1px solid rgb(153, 151, 151);
+}
+
+.footer .container > p {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "Raleway", sans-serif;
+  line-height: 25px;
+  text-align: left !important;
+}
+
+.footer .container .details {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.footer .container .details > p {
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: left !important;
+  color: rgb(54, 54, 54);
+}
+
+.footer .container .details i {
+  margin-right: 10px;
+}
+
+.footer .ButtonToTop {
+  cursor: pointer;
+  position: absolute;
+  background-color: #222425;
+  color: white;
+  border: 1px solid white;
+  border-top: none;
+  padding: 20px 25px;
+  padding-top: 10px;
+  font-size: 2.5rem;
+  right: 10vh;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer .container {
+    width: 95%;
+    margin-top: 5vh;
+  }
+}

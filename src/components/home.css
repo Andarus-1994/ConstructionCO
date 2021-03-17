@@ -70,7 +70,7 @@
   font-size: 3rem;
   font-weight: 100;
   font-family: "Roboto Condensed", sans-serif;
-  animation: fadeInLeft 2s;
+  animation: fadeInLeft 1.5s;
 }
 .Home .HomeDescription h2 {
   margin-top: 10vh;
@@ -80,7 +80,7 @@
   font-family: "Roboto Condensed", sans-serif;
   line-height: 25px;
   text-align: left;
-  animation: fadeInLeft 3s;
+  animation: fadeInLeft 2.5s;
 }
 
 .Home .servicesList ul {
@@ -366,7 +366,7 @@
   padding: 40px 20px;
   color: white;
   border: 1px solid rgb(158, 155, 155);
-  animation: fadeInLeft 1.5s;
+  animation: fadeDown;
 }
 
 .Home .testimonials ul li p {
@@ -384,6 +384,17 @@
 
 .Home .testimonials ul li .Stars {
   color: rgb(230, 201, 41);
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .Home .reasons {
@@ -467,72 +478,6 @@
   }
 }
 
-.footer {
-  position: relative;
-  background: #1f3e4e;
-  min-height: 30vh;
-  padding-bottom: 5vh;
-  margin-top: 5vh;
-}
-
-.footer .container {
-  background-color: white;
-  width: 60%;
-  min-height: 20vh;
-  margin: 0 auto;
-  padding-bottom: 20px;
-}
-
-.footer .container ul {
-  background-color: #222425;
-  list-style-type: none;
-  display: flex;
-  width: 100%;
-  padding: 10px;
-  justify-content: center;
-}
-
-.footer .container ul li {
-  color: white;
-  cursor: pointer;
-  padding: 5px 15px;
-  font-size: 1.5rem;
-  border: 1px solid white;
-  border-radius: 10px;
-  margin: 0 30px;
-  transition: 0.4s;
-}
-.footer .container ul li:hover {
-  color: rgb(153, 151, 151);
-  border: 1px solid rgb(153, 151, 151);
-}
-
-.footer .container > p {
-  width: 60%;
-  margin: 0 auto;
-  margin-top: 30px;
-  font-family: "Raleway", sans-serif;
-  line-height: 25px;
-  text-align: left !important;
-}
-
-.footer .container .details {
-  width: 60%;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.footer .container .details > p {
-  margin-top: 10px;
-  font-size: 1rem;
-  text-align: left !important;
-  color: rgb(54, 54, 54);
-}
-
-.footer .container .details i {
-  margin-right: 10px;
-}
-
 @media screen and (max-width: 1000px) {
   .Home .HomeHeader h1 {
     font-size: 2.5rem;
@@ -605,10 +550,5 @@
   .Home .testimonials h1 {
     font-size: 2.5rem;
     width: 80%;
-  }
-
-  .Home .footer .container {
-    width: 95%;
-    margin-top: 5vh;
   }
 }

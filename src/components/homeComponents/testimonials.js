@@ -14,7 +14,7 @@ function Testimonials(props) {
       {isVisible && (
         <ul>
           {props.list.map((testimonial, index) => (
-            <li key={index}>
+            <li key={index} style={{ animationDuration: 1.15 * index + "s" }}>
               <div className="Stars">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>

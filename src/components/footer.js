@@ -1,8 +1,15 @@
-import "./home.css";
+import "./footer.css";
 
 function Footer() {
+  function goToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   return (
     <div className="footer">
+      <button className="ButtonToTop" onClick={() => goToTop()}>
+        &#8593;
+      </button>
       <div className="container">
         <ul>
           <li>

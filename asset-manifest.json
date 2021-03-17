@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b7cfc25.chunk.css",
-    "main.js": "/static/js/main.faf7961f.chunk.js",
-    "main.js.map": "/static/js/main.faf7961f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a809c734.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a809c734.js.map",
-    "static/js/2.11974696.chunk.js": "/static/js/2.11974696.chunk.js",
-    "static/js/2.11974696.chunk.js.map": "/static/js/2.11974696.chunk.js.map",
-    "static/js/3.7c9b199d.chunk.js": "/static/js/3.7c9b199d.chunk.js",
-    "static/js/3.7c9b199d.chunk.js.map": "/static/js/3.7c9b199d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.4b7cfc25.chunk.css.map": "/static/css/main.4b7cfc25.chunk.css.map",
-    "static/js/2.11974696.chunk.js.LICENSE.txt": "/static/js/2.11974696.chunk.js.LICENSE.txt",
-    "static/media/home.css": "/static/media/kitchenMain.5beb30a6.jpg",
-    "static/media/work.css": "/static/media/ourWorkHeader.cc7959cb.jpg"
+    "main.css": "/ConstructionCO/static/css/main.5fd694b6.chunk.css",
+    "main.js": "/ConstructionCO/static/js/main.faf7961f.chunk.js",
+    "main.js.map": "/ConstructionCO/static/js/main.faf7961f.chunk.js.map",
+    "runtime-main.js": "/ConstructionCO/static/js/runtime-main.d8bd80d4.js",
+    "runtime-main.js.map": "/ConstructionCO/static/js/runtime-main.d8bd80d4.js.map",
+    "static/js/2.11974696.chunk.js": "/ConstructionCO/static/js/2.11974696.chunk.js",
+    "static/js/2.11974696.chunk.js.map": "/ConstructionCO/static/js/2.11974696.chunk.js.map",
+    "static/js/3.7c9b199d.chunk.js": "/ConstructionCO/static/js/3.7c9b199d.chunk.js",
+    "static/js/3.7c9b199d.chunk.js.map": "/ConstructionCO/static/js/3.7c9b199d.chunk.js.map",
+    "index.html": "/ConstructionCO/index.html",
+    "static/css/main.5fd694b6.chunk.css.map": "/ConstructionCO/static/css/main.5fd694b6.chunk.css.map",
+    "static/js/2.11974696.chunk.js.LICENSE.txt": "/ConstructionCO/static/js/2.11974696.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/ConstructionCO/static/media/kitchenMain.5beb30a6.jpg",
+    "static/media/work.css": "/ConstructionCO/static/media/ourWorkHeader.cc7959cb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a809c734.js",
+    "static/js/runtime-main.d8bd80d4.js",
     "static/js/2.11974696.chunk.js",
-    "static/css/main.4b7cfc25.chunk.css",
+    "static/css/main.5fd694b6.chunk.css",
     "static/js/main.faf7961f.chunk.js"
   ]
 }

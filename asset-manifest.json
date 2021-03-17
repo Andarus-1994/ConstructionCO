@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ConstructionCO/static/css/main.5fd694b6.chunk.css",
-    "main.js": "/ConstructionCO/static/js/main.3ae68b7a.chunk.js",
-    "main.js.map": "/ConstructionCO/static/js/main.3ae68b7a.chunk.js.map",
+    "main.js": "/ConstructionCO/static/js/main.1b6bca57.chunk.js",
+    "main.js.map": "/ConstructionCO/static/js/main.1b6bca57.chunk.js.map",
     "runtime-main.js": "/ConstructionCO/static/js/runtime-main.51442fee.js",
     "runtime-main.js.map": "/ConstructionCO/static/js/runtime-main.51442fee.js.map",
     "static/js/2.11974696.chunk.js": "/ConstructionCO/static/js/2.11974696.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.51442fee.js",
     "static/js/2.11974696.chunk.js",
     "static/css/main.5fd694b6.chunk.css",
-    "static/js/main.3ae68b7a.chunk.js"
+    "static/js/main.1b6bca57.chunk.js"
   ]
 }

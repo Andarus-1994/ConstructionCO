@@ -15,7 +15,12 @@ function Nav() {
     <div className="Routes">
       <Router>
         <nav>
-          <NavLink to="/" exact activeClassName="active" className="inactive">
+          <NavLink
+            to="/ConstructionCO"
+            exact
+            activeClassName="active"
+            className="inactive"
+          >
             <h1>Construct S</h1>
           </NavLink>
           <ul className="nav-links">

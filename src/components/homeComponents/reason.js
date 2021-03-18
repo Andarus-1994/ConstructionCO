@@ -16,7 +16,7 @@ function Reasons(props) {
           isVisible ? (
             <li key={index}>
               {" "}
-              <img src={"./assets/" + reason.img} alt="icons" />
+              <img src={"assets/" + reason.img} alt="icons" />
               <h2>{reason.name}</h2> <p>{reason.description}</p>
             </li>
           ) : (

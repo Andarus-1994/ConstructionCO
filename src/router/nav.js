@@ -24,7 +24,12 @@ function Nav() {
             <h1>Construct S</h1>
           </NavLink>
           <ul className="nav-links">
-            <NavLink to="/" exact activeClassName="active" className="inactive">
+            <NavLink
+              to="/ConstructionCO"
+              exact
+              activeClassName="active"
+              className="inactive"
+            >
               <li> What We Do </li>
             </NavLink>
             <NavLink to="/demos" activeClassName="active" className="inactive">
@@ -50,7 +55,7 @@ function Nav() {
             <Route path="/demos">
               <OurWork />
             </Route>
-            <Route path="/">
+            <Route exact path="/ConstructionCO">
               <Home />
             </Route>
           </Switch>

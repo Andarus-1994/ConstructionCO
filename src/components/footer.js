@@ -36,11 +36,10 @@ function Footer() {
         <div className="details">
           {" "}
           <p>
-            <i class="fas fa-phone"></i> 0724122344{" "}
+            <i class="fa">&#xf095;</i> 0724122344{" "}
           </p>
           <p>
-            <i class="fas fa-map-marker-alt"></i> city. Bucharest, str.
-            Rasaritului nr.24{" "}
+            <i class="fas">&#xf3c5;</i> city. Bucharest, str. Rasaritului nr.24{" "}
           </p>
           <p>
             <i class="fa fa-envelope"></i> ConstructCO@Yahoo.com

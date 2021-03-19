@@ -1,0 +1,96 @@
+$bgColor: rgb(233, 232, 232);
+$fontSizeHeader: 5rem;
+$fontFamilyHeader: "Rubik", sans-serif;
+$colorHeader: white;
+
+@mixin alignTextMiddle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin imgStyle($position) {
+  float: $position;
+  height: 25%;
+  width: 30%;
+  margin-bottom: 35px;
+}
+
+.inspire {
+  background: $bgColor;
+}
+
+.mainHeaderInspire {
+  background-image: url("../assets/inspireHeader.jpg");
+  height: 30vh;
+  h1 {
+    color: $colorHeader;
+    font-size: $fontSizeHeader;
+    font-family: $fontFamilyHeader;
+    @include alignTextMiddle;
+  }
+}
+
+.inspireContent {
+  min-height: 50vh;
+  padding: 200px 0;
+  .containerLeft {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5vh;
+
+    img {
+      @include imgStyle(left);
+      margin-right: 55px;
+    }
+    h1 {
+      text-align: left;
+      padding-left: 20px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-weight: 100;
+      font-family: "Roboto Condensed", sans-serif;
+      margin-bottom: 25px;
+    }
+    p {
+      text-align: left;
+      color: rgb(66, 66, 66);
+      font-weight: 100;
+      font-size: 1.2rem;
+      font-family: "Roboto Condensed", sans-serif;
+      text-indent: 30px;
+      line-height: 25px;
+    }
+  }
+
+  .containerRight {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25vh;
+
+    img {
+      @include imgStyle(right);
+      margin-left: 55px;
+    }
+    h1 {
+      text-align: center;
+      padding-left: 20px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-weight: 100;
+      font-family: "Roboto Condensed", sans-serif;
+      margin-bottom: 25px;
+    }
+    p {
+      text-align: left;
+      color: rgb(66, 66, 66);
+      font-weight: 100;
+      font-size: 1.2rem;
+      font-family: "Roboto Condensed", sans-serif;
+      text-indent: 3%;
+      line-height: 25px;
+    }
+  }
+}

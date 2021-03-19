@@ -14,7 +14,7 @@ function Work() {
             <p>Home Bourdeux</p>
           </li>
           <li>
-            <img src={"./assets/demo2.jpg"} alt="images"></img>
+            <img src="./assets/demo2.jpg" alt="images"></img>
             <p>Design of 2 parts</p>
           </li>
           <li>

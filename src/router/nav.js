@@ -7,6 +7,7 @@ import {
 import ScrollTop from "./scrollTop.js";
 import Home from "../components/home.js";
 import OurWork from "../components/work.js";
+import Inspire from "../components/inspire.js";
 
 import "./nav.css";
 
@@ -51,6 +52,9 @@ function Nav() {
           <Switch>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/inspirations">
+              <Inspire />
             </Route>
             <Route path="/demos">
               <OurWork />

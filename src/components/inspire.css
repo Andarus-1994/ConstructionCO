@@ -1,0 +1,94 @@
+.inspire {
+  background: #e9e8e8;
+}
+
+.mainHeaderInspire {
+  background-image: url("../assets/inspireHeader.jpg");
+  height: 30vh;
+}
+
+.mainHeaderInspire h1 {
+  color: white;
+  font-size: 5rem;
+  font-family: "Rubik", sans-serif;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.inspireContent {
+  min-height: 50vh;
+  padding: 200px 0;
+}
+
+.inspireContent .containerLeft {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+
+.inspireContent .containerLeft img {
+  float: left;
+  height: 25%;
+  width: 30%;
+  margin-bottom: 35px;
+  margin-right: 55px;
+}
+
+.inspireContent .containerLeft h1 {
+  text-align: left;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 100;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 25px;
+}
+
+.inspireContent .containerLeft p {
+  text-align: left;
+  color: #424242;
+  font-weight: 100;
+  font-size: 1.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  text-indent: 30px;
+  line-height: 25px;
+}
+
+.inspireContent .containerRight {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 25vh;
+}
+
+.inspireContent .containerRight img {
+  float: right;
+  height: 25%;
+  width: 30%;
+  margin-bottom: 35px;
+  margin-left: 55px;
+}
+
+.inspireContent .containerRight h1 {
+  text-align: center;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 100;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 25px;
+}
+
+.inspireContent .containerRight p {
+  text-align: left;
+  color: #424242;
+  font-weight: 100;
+  font-size: 1.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  text-indent: 3%;
+  line-height: 25px;
+}
+/*# sourceMappingURL=inspire.css.map */

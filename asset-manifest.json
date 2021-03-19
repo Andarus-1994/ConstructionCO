@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/ConstructionCO/static/css/main.2bb8f6aa.chunk.css",
-    "main.js": "/ConstructionCO/static/js/main.812b9d42.chunk.js",
-    "main.js.map": "/ConstructionCO/static/js/main.812b9d42.chunk.js.map",
-    "runtime-main.js": "/ConstructionCO/static/js/runtime-main.d8bd80d4.js",
-    "runtime-main.js.map": "/ConstructionCO/static/js/runtime-main.d8bd80d4.js.map",
+    "main.css": "/ConstructionCO/static/css/main.4acd3ecf.chunk.css",
+    "main.js": "/ConstructionCO/static/js/main.b432f487.chunk.js",
+    "main.js.map": "/ConstructionCO/static/js/main.b432f487.chunk.js.map",
+    "runtime-main.js": "/ConstructionCO/static/js/runtime-main.90f529f7.js",
+    "runtime-main.js.map": "/ConstructionCO/static/js/runtime-main.90f529f7.js.map",
     "static/js/2.11974696.chunk.js": "/ConstructionCO/static/js/2.11974696.chunk.js",
     "static/js/2.11974696.chunk.js.map": "/ConstructionCO/static/js/2.11974696.chunk.js.map",
-    "static/js/3.7c9b199d.chunk.js": "/ConstructionCO/static/js/3.7c9b199d.chunk.js",
-    "static/js/3.7c9b199d.chunk.js.map": "/ConstructionCO/static/js/3.7c9b199d.chunk.js.map",
+    "static/js/3.73b0b089.chunk.js": "/ConstructionCO/static/js/3.73b0b089.chunk.js",
+    "static/js/3.73b0b089.chunk.js.map": "/ConstructionCO/static/js/3.73b0b089.chunk.js.map",
     "index.html": "/ConstructionCO/index.html",
-    "static/css/main.2bb8f6aa.chunk.css.map": "/ConstructionCO/static/css/main.2bb8f6aa.chunk.css.map",
+    "static/css/main.4acd3ecf.chunk.css.map": "/ConstructionCO/static/css/main.4acd3ecf.chunk.css.map",
     "static/js/2.11974696.chunk.js.LICENSE.txt": "/ConstructionCO/static/js/2.11974696.chunk.js.LICENSE.txt",
     "static/media/home.css": "/ConstructionCO/static/media/kitchenMain.5beb30a6.jpg",
+    "static/media/inspireContent.863e1692.jpg": "/ConstructionCO/static/media/inspireContent.863e1692.jpg",
+    "static/media/inspire.css": "/ConstructionCO/static/media/inspireHeader.5b0195ad.jpg",
     "static/media/work.css": "/ConstructionCO/static/media/ourWorkHeader.cc7959cb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8bd80d4.js",
+    "static/js/runtime-main.90f529f7.js",
     "static/js/2.11974696.chunk.js",
-    "static/css/main.2bb8f6aa.chunk.css",
-    "static/js/main.812b9d42.chunk.js"
+    "static/css/main.4acd3ecf.chunk.css",
+    "static/js/main.b432f487.chunk.js"
   ]
 }

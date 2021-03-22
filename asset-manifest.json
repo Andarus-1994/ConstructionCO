@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ConstructionCO/static/css/main.79ad2a67.chunk.css",
-    "main.js": "/ConstructionCO/static/js/main.f4cfcd5d.chunk.js",
-    "main.js.map": "/ConstructionCO/static/js/main.f4cfcd5d.chunk.js.map",
+    "main.css": "/ConstructionCO/static/css/main.042467e1.chunk.css",
+    "main.js": "/ConstructionCO/static/js/main.8d1ba772.chunk.js",
+    "main.js.map": "/ConstructionCO/static/js/main.8d1ba772.chunk.js.map",
     "runtime-main.js": "/ConstructionCO/static/js/runtime-main.51442fee.js",
     "runtime-main.js.map": "/ConstructionCO/static/js/runtime-main.51442fee.js.map",
     "static/js/2.11974696.chunk.js": "/ConstructionCO/static/js/2.11974696.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0c159c58.chunk.js": "/ConstructionCO/static/js/3.0c159c58.chunk.js",
     "static/js/3.0c159c58.chunk.js.map": "/ConstructionCO/static/js/3.0c159c58.chunk.js.map",
     "index.html": "/ConstructionCO/index.html",
-    "static/css/main.79ad2a67.chunk.css.map": "/ConstructionCO/static/css/main.79ad2a67.chunk.css.map",
+    "static/css/main.042467e1.chunk.css.map": "/ConstructionCO/static/css/main.042467e1.chunk.css.map",
     "static/js/2.11974696.chunk.js.LICENSE.txt": "/ConstructionCO/static/js/2.11974696.chunk.js.LICENSE.txt",
     "static/media/about.css": "/ConstructionCO/static/media/about.2846b7a7.jpg",
     "static/media/demo1.d34bbb70.jpg": "/ConstructionCO/static/media/demo1.d34bbb70.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.51442fee.js",
     "static/js/2.11974696.chunk.js",
-    "static/css/main.79ad2a67.chunk.css",
-    "static/js/main.f4cfcd5d.chunk.js"
+    "static/css/main.042467e1.chunk.css",
+    "static/js/main.8d1ba772.chunk.js"
   ]
 }

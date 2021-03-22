@@ -453,7 +453,7 @@
   font-family: "Raleway", sans-serif;
   line-height: 25px;
   margin-top: 15px;
-  animation: fadeInLeft 2s;
+  animation: fadeDown 1s;
 }
 
 @keyframes fadeInLeft {

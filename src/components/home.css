@@ -120,7 +120,7 @@
   font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
   color: #283b4d;
-  animation: fadeInLeft 1s;
+  animation: fadeIn 1s;
 }
 
 .Home .miniContact {

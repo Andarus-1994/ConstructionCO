@@ -1,0 +1,34 @@
+.about {
+  background: #e9e8e8;
+}
+
+.mainHeaderAbout {
+  background-image: url("../assets/about.jpg");
+  height: 30vh;
+}
+
+.mainHeaderAbout h1 {
+  color: white;
+  font-size: 5rem;
+  font-family: "Rubik", sans-serif;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.containerAbout {
+  background-color: #707070;
+  height: 80vh;
+}
+
+.containerAbout h1 {
+  color: white;
+  font-size: 5rem;
+  font-family: "Rubik", sans-serif;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+/*# sourceMappingURL=about.css.map */

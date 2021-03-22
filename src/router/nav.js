@@ -8,6 +8,7 @@ import ScrollTop from "./scrollTop.js";
 import Home from "../components/home.js";
 import OurWork from "../components/work.js";
 import Inspire from "../components/inspire.js";
+import About from "../components/about.js";
 
 import "./nav.css";
 
@@ -67,10 +68,6 @@ function Nav() {
       </Router>
     </div>
   );
-}
-
-function About() {
-  return <h2>About</h2>;
 }
 
 export default Nav;

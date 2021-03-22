@@ -12,8 +12,8 @@ $colorHeader: white;
 @mixin imgStyle($position) {
   float: $position;
   height: 25%;
-  width: 30%;
-  margin-bottom: 35px;
+  width: 35%;
+  margin-bottom: 20px;
 }
 
 .inspire {
@@ -33,9 +33,9 @@ $colorHeader: white;
 
 .inspireContent {
   min-height: 50vh;
-  padding: 200px 0;
+  padding: 150px 0;
   .containerLeft {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 5vh;
 
@@ -65,7 +65,7 @@ $colorHeader: white;
   }
 
   .containerRight {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 25vh;
 

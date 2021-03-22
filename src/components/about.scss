@@ -1,0 +1,36 @@
+$bgColor: rgb(233, 232, 232);
+$fontSizeHeader: 5rem;
+$fontFamilyHeader: "Rubik", sans-serif;
+$colorHeader: white;
+
+@mixin alignTextMiddle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about {
+  background: $bgColor;
+}
+
+.mainHeaderAbout {
+  background-image: url("../assets/about.jpg");
+  height: 30vh;
+  h1 {
+    color: $colorHeader;
+    font-size: $fontSizeHeader;
+    font-family: $fontFamilyHeader;
+    @include alignTextMiddle;
+  }
+}
+
+.containerAbout {
+  background-color: rgb(112, 112, 112);
+  height: 80vh;
+  h1 {
+    color: $colorHeader;
+    font-size: $fontSizeHeader;
+    font-family: $fontFamilyHeader;
+    @include alignTextMiddle;
+  }
+}

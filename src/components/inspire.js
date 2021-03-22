@@ -28,6 +28,15 @@ function Inspire() {
             efficitur. Nulla ornare tincidunt leo at egestas. Morbi at rutrum
             arcu.{" "}
           </p>
+          <br></br>
+          <p>
+            Cras ac lobortis neque. Ut euismod sem eros, id bibendum purus
+            pharetra eu. Nam dapibus ex ipsum, sed placerat urna fringilla eu.
+            Aenean non justo in dolor laoreet ullamcorper. Aenean lacinia
+            viverra tempus. Praesent rutrum nulla nisi, at posuere diam bibendum
+            vitae. Maecenas vulputate dui at justo euismod, ut eleifend ligula
+            semper.{" "}
+          </p>
         </div>
         <div className="containerRight">
           <img src={contentImage} alt="noImage"></img>
